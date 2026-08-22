@@ -380,13 +380,13 @@ export default function App() {
               <p className="mt-3 text-[10px] tracking-[0.34em] text-cream/55">NO PINEAPPLE ARGUMENTS HERE.</p>
             </Cap>
 
-            <Cap range={[0.645, 0.7]} className="left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center">
+            <Cap range={[0.668, 0.71]} className="left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center">
               <p className="font-display text-[16vw] leading-none text-ember text-shadow-warm sm:text-[11vw]">420°</p>
               <p className="mt-3 font-display text-[8vw] tracking-wide text-cream sm:text-[5vw]">WAIT.</p>
               <p className="mt-4 text-[11px] tracking-[0.44em] text-cream/60">NO SHORTCUTS.</p>
             </Cap>
 
-            <Cap range={[0.72, 0.77]} className="left-1/2 top-[13vh] w-full -translate-x-1/2 text-center">
+            <Cap range={[0.725, 0.78]} className="left-1/2 top-[13vh] w-full -translate-x-1/2 text-center">
               <p className="font-display text-[24vw] leading-[0.85] text-cream text-shadow-deep sm:text-[17vw]">OUT.</p>
               <p className="mt-1 font-serif2 text-2xl italic text-ember sm:text-4xl">NOW EAT.</p>
             </Cap>

@@ -662,20 +662,20 @@ const KEYS: Key[] = [
   { p: 0.275, pos: [1.85, 1.72, -22.4], look: [0, 1.2, -24], fov: 44, roll: -0.03 },
   { p: 0.315, pos: [1.2, 1.5, -30.5], look: [0, 1.2, -38], fov: 48, roll: 0.015 },
   { p: 0.36, pos: [2.25, 1.6, -35.6], look: [0, 1.15, -38], fov: 46, roll: -0.02 },
-  { p: 0.4, pos: [0, 1.22, -36.4], look: [0, 1.12, -38.2], fov: 52, roll: 0 },
-  { p: 0.44, pos: [0, 1.32, -37.7], look: [0, 1.1, -39], fov: 58, roll: 0.01 },
+  { p: 0.4, pos: [-0.3, 1.3, -34.8], look: [0, 1.12, -38.2], fov: 52, roll: 0 },
+  { p: 0.44, pos: [0, 1.34, -33.6], look: [0, 1.1, -38.2], fov: 58, roll: 0.01 },
   { p: 0.485, pos: [0, 1.3, -45.4], look: [0, 1.15, -52], fov: 50, roll: 0 },
   { p: 0.535, pos: [0.6, 1.38, -48.6], look: [0, 1.15, -52], fov: 48, roll: -0.015 },
-  { p: 0.565, pos: [0, 1.24, -54.6], look: [0, 1.0, -61], fov: 50, roll: 0 },
-  { p: 0.6, pos: [0, 1.26, -59.8], look: [0, 1.0, -64.5], fov: 48, roll: 0 },
-  { p: 0.635, pos: [0, 1.15, -64.7], look: [0, 0.55, -66.4], fov: 55, roll: 0 },
-  { p: 0.675, pos: [0.85, 1.28, -65.5], look: [0, 0.45, -66.5], fov: 52, roll: 0.025 },
-  { p: 0.71, pos: [0, 1.12, -64.8], look: [0, 0.7, -63.4], fov: 50, roll: 0 },
-  { p: 0.745, pos: [0, 1.3, -61.2], look: [0, 1.25, -63.8], fov: 47, roll: 0 },
-  { p: 0.78, pos: [0, 1.34, -62.4], look: [0, 1.28, -64.5], fov: 44, roll: 0 },
-  { p: 0.815, pos: [0, 1.32, -70], look: [0, 1.26, -80], fov: 50, roll: 0.02 },
-  { p: 0.87, pos: [0, 1.26, -92], look: [0, 1.24, -104], fov: 55, roll: -0.035 },
-  { p: 0.91, pos: [0, 1.32, -108], look: [0, 1.3, -121], fov: 52, roll: 0 },
+  { p: 0.57, pos: [2.0, 1.5, -50.5], look: [0, 1.15, -52], fov: 46, roll: -0.02 },
+  { p: 0.61, pos: [2.2, 1.5, -58.0], look: [0, 1.1, -63], fov: 47, roll: 0 },
+  { p: 0.64, pos: [1.2, 1.45, -61.6], look: [0, 0.8, -65], fov: 46, roll: 0 },
+  { p: 0.665, pos: [0, 1.2, -65.3], look: [0, 0.3, -67.2], fov: 42, roll: 0.012 },
+  { p: 0.705, pos: [0, 1.1, -65.6], look: [0, 0.3, -67.2], fov: 42, roll: 0 },
+  { p: 0.735, pos: [0, 1.4, -62.2], look: [0, 1.25, -63.6], fov: 48, roll: 0 },
+  { p: 0.775, pos: [0, 1.5, -60.4], look: [0, 1.3, -63.1], fov: 46, roll: 0 },
+  { p: 0.8, pos: [0, 1.42, -61.4], look: [0, 1.3, -63.05], fov: 52, roll: 0 },
+  { p: 0.86, pos: [0, 1.34, -62.85], look: [0, 1.3, -63.2], fov: 60, roll: 0.01 },
+  { p: 0.91, pos: [0, 1.4, -65.0], look: [0, 1.4, -67.5], fov: 72, roll: 0 },
   { p: 0.955, pos: [0.8, 1.5, -127], look: [-0.4, 1.25, -141], fov: 50, roll: -0.02 },
   { p: 0.985, pos: [0, 1.36, -146], look: [0, 1.2, -153], fov: 48, roll: 0 },
   { p: 1.0, pos: [0, 1.27, -159], look: [0, 1.24, -164], fov: 45, roll: 0 },
@@ -690,7 +690,8 @@ const FOG_KEYS: { p: number; color: THREE.Color; density: number }[] = [
   { p: 0.45, color: new THREE.Color(0x120c08), density: 0.05 },
   { p: 0.56, color: new THREE.Color(0x170d07), density: 0.05 },
   { p: 0.62, color: new THREE.Color(0x2b1204), density: 0.058 },
-  { p: 0.71, color: new THREE.Color(0x1b0c05), density: 0.052 },
+  { p: 0.68, color: new THREE.Color(0x3d1803), density: 0.08 },
+  { p: 0.74, color: new THREE.Color(0x1b0c05), density: 0.052 },
   { p: 0.78, color: new THREE.Color(0x0d0806), density: 0.06 },
   { p: 0.86, color: new THREE.Color(0x0a0705), density: 0.048 },
   { p: 0.92, color: new THREE.Color(0x120c08), density: 0.032 },
@@ -1085,13 +1086,14 @@ export class PizzaWorld {
       u.uTime.value = t;
       const target = new THREE.Vector3(this.pointer.x * 1.4, this.pointer.y * 1.2 + 0.2, 1).normalize();
       (u.uBulge.value as THREE.Vector3).lerp(target, 1 - Math.exp(-dt * 5));
-      const w = bell(p, 0.355, 0.075);
+      const w = bell(p, 0.37, 0.08);
       u.uBulgeAmt.value += ((this.doughDragging ? 0.34 : 0.15) * w - u.uBulgeAmt.value) * (1 - Math.exp(-dt * 6));
-      const s = smoothstep(0.34, 0.428, p);
-      this.dough.scale.set(1 + 2.0 * s, 1 - 0.76 * s, 1 + 2.0 * s);
+      // stretch toward the lens but never past the camera (front face stays ~0.5 away)
+      const s = smoothstep(0.34, 0.438, p);
+      this.dough.scale.set(1 + 1.15 * s, 1 - 0.66 * s, 1 + 1.15 * s);
       this.dough.rotation.y += dt * 0.25 + this.doughVel;
       this.doughVel *= Math.exp(-dt * 3);
-      this.dough.position.y = 1.2 - 0.14 * s;
+      this.dough.position.set(0, 1.2 - 0.1 * s, lerp(-38, -36.4, s));
     });
     this.scene.add(g);
   }
@@ -1263,21 +1265,36 @@ export class PizzaWorld {
     const hearthOut = new THREE.Mesh(new THREE.BoxGeometry(5.2, 0.14, 3.4), M.stone());
     hearthOut.position.y = 1.12;
     g.add(hearthOut);
-    const dome = new THREE.Mesh(new THREE.SphereGeometry(2.3, 26, 16, 0, Math.PI * 2, 0, Math.PI / 2), M.brick());
-    dome.scale.y = 0.72;
-    dome.position.y = 1.19;
-    g.add(dome);
+    // exterior dome with real openings front (mouth) and back (tunnel pass-through)
+    const domeSeg = (phiStart: number) => {
+      const m = new THREE.Mesh(new THREE.SphereGeometry(2.3, 26, 12, phiStart, Math.PI - 1.24, 0, Math.PI / 2), M.brick());
+      m.scale.y = 0.72;
+      m.position.y = 1.19;
+      g.add(m);
+    };
+    domeSeg(Math.PI / 2 + 0.62);
+    domeSeg((3 * Math.PI) / 2 + 0.62);
     const chimney = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.34, 1.4, 12), M.brick());
     chimney.position.set(0, 3.1, -0.4);
     g.add(chimney);
 
-    // interior chamber: wall with +z gap, vaulted ceiling, hearth floor
-    const innerWall = new THREE.Mesh(
-      new THREE.CylinderGeometry(2.3, 2.3, 2.4, 28, 1, true, 0.62, Math.PI * 2 - 1.24),
-      new THREE.MeshStandardMaterial({ map: texBrick(true), roughness: 0.97, side: THREE.BackSide })
+    // interior chamber: walls with gaps front (mouth) and back (tunnel), vaulted ceiling, hearth floor
+    const innerMat = new THREE.MeshStandardMaterial({ map: texBrick(true), roughness: 0.97, side: THREE.BackSide });
+    for (const start of [0.62, Math.PI + 0.62]) {
+      const seg = new THREE.Mesh(new THREE.CylinderGeometry(2.3, 2.3, 2.4, 28, 1, true, start, Math.PI - 1.24), innerMat);
+      seg.position.y = 1.35;
+      g.add(seg);
+    }
+    // brick ring framing the back pass-through + ember glow hinting the tunnel beyond
+    const backRing = new THREE.Mesh(new THREE.TorusGeometry(1.2, 0.3, 10, 26), M.brick());
+    backRing.position.set(0, 1.35, -2.28);
+    g.add(backRing);
+    const backGlow = new THREE.Mesh(
+      new THREE.TorusGeometry(1.0, 0.07, 8, 24),
+      new THREE.MeshBasicMaterial({ color: 0xff5a1e, transparent: true, opacity: 0.45, blending: THREE.AdditiveBlending, depthWrite: false })
     );
-    innerWall.position.y = 1.35;
-    g.add(innerWall);
+    backGlow.position.set(0, 1.35, -2.32);
+    g.add(backGlow);
     const innerCeil = new THREE.Mesh(
       new THREE.SphereGeometry(2.3, 24, 12, 0, Math.PI * 2, 0, Math.PI / 2),
       new THREE.MeshStandardMaterial({ map: texBrick(true), roughness: 0.97, side: THREE.BackSide })
@@ -1329,8 +1346,10 @@ export class PizzaWorld {
       blending: THREE.AdditiveBlending,
       depthWrite: false,
     });
-    const shaft = new THREE.Mesh(new THREE.PlaneGeometry(2.4, 2.2), this.shaftMat);
-    shaft.position.set(0, 1.35, 2.6);
+    // volumetric light cone spilling out of the mouth when the door lifts (off the camera path)
+    const shaft = new THREE.Mesh(new THREE.ConeGeometry(1.5, 4.4, 20, 1, true), this.shaftMat);
+    shaft.rotation.x = -Math.PI / 2;
+    shaft.position.set(0, 1.0, 4.3);
     g.add(shaft);
 
     this.ovenDoor = new THREE.Mesh(new THREE.BoxGeometry(1.72, 1.62, 0.1), M.metal());
@@ -1347,78 +1366,87 @@ export class PizzaWorld {
     }
     this.ovenDoor.add(rivets);
 
-    // interior fire: coal strip along back wall + small flames + embers
-    const coalStrip = new THREE.Mesh(
-      new THREE.PlaneGeometry(3.2, 0.9),
-      new THREE.MeshBasicMaterial({ map: texCoals(), transparent: true, opacity: 0.95 })
-    );
-    coalStrip.position.set(0, 0.5, -2.1);
-    coalStrip.rotation.x = -0.5;
+    // interior fire: coal bed on the floor flanking the pizza + side-wall flames + embers
+    const coalMat = new THREE.MeshBasicMaterial({ map: texCoals(), transparent: true, opacity: 0.95 });
+    const coalStrip = new THREE.Mesh(new THREE.PlaneGeometry(2.6, 1.3), coalMat);
+    coalStrip.rotation.x = -Math.PI / 2;
+    coalStrip.position.set(0, 0.17, -1.55);
     g.add(coalStrip);
+    const coalL = new THREE.Mesh(new THREE.PlaneGeometry(1.0, 2.2), coalMat);
+    coalL.rotation.x = -Math.PI / 2;
+    coalL.position.set(-1.6, 0.17, -0.5);
+    g.add(coalL);
+    const coalR = coalL.clone();
+    coalR.position.x = 1.6;
+    g.add(coalR);
+    const ovenFlames: { mat: THREE.ShaderMaterial }[] = [];
     for (let i = 0; i < 2; i++) {
       const fm = flameMaterial(11 + i * 5);
       this.flameMats.push(fm);
-      const quad = new THREE.Mesh(new THREE.PlaneGeometry(0.6, 0.8), fm);
-      quad.position.set(i === 0 ? -1.15 : 1.15, 0.55, -1.7);
-      quad.rotation.y = i === 0 ? 0.5 : -0.5;
+      ovenFlames.push({ mat: fm });
+      const quad = new THREE.Mesh(new THREE.PlaneGeometry(0.7, 0.9), fm);
+      quad.position.set(i === 0 ? -1.75 : 1.75, 0.55, -0.9);
+      quad.rotation.y = i === 0 ? Math.PI / 2 - 0.3 : -(Math.PI / 2 - 0.3);
       g.add(quad);
     }
-    const innerEmbers = makePoints(this.isMobile ? 50 : 100, [2.6, 1.8, 2], 0xffa14a, 0.04);
-    innerEmbers.position.set(0, 1.1, -0.9);
+    const innerEmbers = makePoints(this.isMobile ? 50 : 100, [2.4, 1.5, 1.8], 0xffa14a, 0.04);
+    innerEmbers.position.set(0, 0.6, -0.9);
     g.add(innerEmbers);
 
-    // peel: flat blade only — retracts before the camera arrives
-    this.peel = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.05, 1.5), M.wood());
+    // peel: narrow flat blade (fits the mouth), retracts out before the door drops
+    this.peel = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.05, 1.4), M.wood());
     this.peel.position.set(0, -2, -66);
     this.peel.visible = false;
     this.scene.add(this.peel);
 
-    // steam over the revealed pizza
+    // steam over the revealed pizza (world ≈ 0, 1.5, -63)
     this.steam = makePoints(this.isMobile ? 40 : 80, [1.2, 1.6, 1.2], 0xf5e9d8, 0.05, false);
-    this.steam.position.set(0, 2.0, 2.7);
+    this.steam.position.set(0, 1.5, 3.0);
     (this.steam.material as THREE.PointsMaterial).opacity = 0;
     g.add(this.steam);
 
     this.updaters.push((t, dt, p) => {
-      // pizza journey: craft table -> into chamber -> back out
-      const toOven = smoothstep(0.565, 0.62, p);
-      const out = smoothstep(0.71, 0.745, p);
-      const zIn = -52, zDeep = -66.6, zOut = -63.3;
-      const z = lerp(lerp(zIn, zDeep, toOven), zOut, out);
-      const yIn = 1.12, yDeep = 0.55, yOut = 1.28;
-      const y = lerp(lerp(yIn, yDeep, toOven), yOut, out);
+      // ---- pizza journey: craft table → glide in on the peel → rest on the hearth → glide out ----
+      const slideIn = smoothstep(0.565, 0.63, p);
+      const slideOut = smoothstep(0.715, 0.745, p);
+      const zIn = -52, zDeep = -67.2, zOut = -63.0;
+      const z = lerp(lerp(zIn, zDeep, slideIn), zOut, slideOut);
+      // descend onto the chamber floor only after clearing the sill; rise over it on the way out
+      const yIn = 1.12, yHearth = 0.24, yOut = 1.27;
+      const y = lerp(lerp(yIn, yHearth, smoothstep(-62.8, -66.4, z)), yOut, slideOut);
       this.buildPizza.position.set(0, y, z);
-      this.buildPizza.rotation.x = -0.28 * (1 - toOven) + 1.25 * smoothstep(0.745, 0.785, p);
-      if (out > 0) this.buildPizza.rotation.y += dt * 0.3 * out;
+      this.buildPizza.rotation.x =
+        -0.28 * (1 - smoothstep(0.565, 0.62, p)) + 1.25 * smoothstep(0.775, 0.82, p);
+      if (slideOut > 0.95) this.buildPizza.rotation.y += dt * 0.35;
 
-      // peel blade under the pizza, then retracts toward the craft table
-      const peelShow = smoothstep(0.565, 0.58, p) * (1 - smoothstep(0.615, 0.645, p));
+      // ---- peel: slides under the pizza, carries it in, then withdraws through the mouth ----
+      const peelShow = smoothstep(0.555, 0.575, p) * (1 - smoothstep(0.65, 0.685, p));
+      const peelRetract = smoothstep(0.64, 0.685, p);
       this.peel.visible = peelShow > 0.02;
-      this.peel.position.set(0, y - 0.11, z + 0.2);
-      (this.peel.material as THREE.MeshStandardMaterial).opacity = 1;
+      this.peel.position.set(0, lerp(y - 0.11, 0.8, peelRetract), lerp(z + 0.2, -62.3, peelRetract));
       this.peel.scale.setScalar(Math.max(0.001, peelShow));
 
-      // door
-      const doorClosed = p > 0.625 && p < 0.715;
+      // ---- iron door: slams once camera + pizza are inside, lifts for the reveal ----
+      const doorClosed = p > 0.668 && p < 0.712;
       const doorY = doorClosed ? 1.35 : 3.2;
-      this.ovenDoor.position.y += (doorY - this.ovenDoor.position.y) * (1 - Math.exp(-dt * 5));
-      this.shaftMat.opacity = out * 0.3 * (0.8 + 0.2 * Math.sin(t * 6));
+      this.ovenDoor.position.y += (doorY - this.ovenDoor.position.y) * (1 - Math.exp(-dt * 7));
+      this.shaftMat.opacity =
+        slideOut * (1 - smoothstep(0.78, 0.83, p)) * 0.35 * (0.8 + 0.2 * Math.sin(t * 6));
 
-      // cook
-      const cook = smoothstep(0.635, 0.705, p);
+      // ---- the bake ----
+      const cook = smoothstep(0.672, 0.708, p);
       this.buildPizza.userData.setCooked(cook);
-      const roar = 1 + cook * 1.6 + Math.sin(t * 13) * 0.25;
-      this.lights.oven2.intensity = (12 + cook * 30) * Math.max(0.6, 0.8 + 0.2 * Math.sin(t * 17));
+      this.lights.oven2.intensity = (14 + cook * 34) * Math.max(0.6, 0.8 + 0.2 * Math.sin(t * 17));
       this.ovenGlowMat.opacity = 0.6 + cook * 0.4;
-      (coalStrip.material as THREE.MeshBasicMaterial).opacity = 0.7 + 0.3 * cook;
-      animateRise(innerEmbers, dt, 0.8 * roar, 1.8);
-      for (const fm of this.flameMats) fm.uniforms.uTime.value = t;
-      this.flameMats.forEach((fm, i) => {
-        fm.uniforms.uIntensity.value = i < 3 ? 1 : 0.55 + cook * 0.9;
-      });
+      coalMat.opacity = 0.7 + 0.3 * cook;
+      animateRise(innerEmbers, dt, 0.8 * (1 + cook * 1.6), 1.5);
+      for (const f of ovenFlames) {
+        f.mat.uniforms.uTime.value = t;
+        f.mat.uniforms.uIntensity.value = 0.45 + cook * 1.15 + Math.sin(t * 9) * 0.08;
+      }
 
-      // steam after reveal
-      const st = smoothstep(0.735, 0.76, p);
+      // ---- steam after the reveal ----
+      const st = smoothstep(0.75, 0.78, p);
       (this.steam.material as THREE.PointsMaterial).opacity = st * 0.5;
       if (st > 0.01) animateRise(this.steam, dt, 0.55, 1.6);
     });
@@ -1435,7 +1463,7 @@ export class PizzaWorld {
         new THREE.TorusGeometry(2.5 + rnd() * 0.6, 0.42 + rnd() * 0.25, 10, 26),
         crustMat
       );
-      ring.position.set((rnd() - 0.5) * 0.8, 1.2 + (rnd() - 0.5) * 0.8, -76 - i * 3.1);
+      ring.position.set((rnd() - 0.5) * 0.8, 1.3 + (rnd() - 0.5) * 0.8, -69.5 - i * 3.1);
       ring.rotation.z = rnd() * Math.PI;
       g.add(ring);
       const sp = 0.05 + rnd() * 0.06;
@@ -1454,7 +1482,7 @@ export class PizzaWorld {
     for (let i = 0; i < 4; i++) {
       const strand = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.04, 9 + rnd() * 5, 8), strandMat);
       const a = rnd() * Math.PI * 2;
-      strand.position.set(Math.cos(a) * (1.6 + rnd()), 1.2 + Math.sin(a) * 1.4, -80 - rnd() * 22);
+      strand.position.set(Math.cos(a) * (1.6 + rnd()), 1.2 + Math.sin(a) * 1.4, -73 - rnd() * 22);
       strand.rotation.set(rnd() * 0.8, 0, rnd() * Math.PI);
       g.add(strand);
     }
@@ -1478,8 +1506,9 @@ export class PizzaWorld {
         if (type === 1) mesh.scale.set(1.4, 0.8, 1.2);
       }
       const a = rnd() * Math.PI * 2;
-      const r = 2.6 + rnd() * 2.4;
-      mesh.position.set(Math.cos(a) * r, 1.2 + Math.sin(a) * r * 0.8, -76 - rnd() * 30);
+      const zb = -69.5 - rnd() * 27;
+      const r = 2.6 + rnd() * 2.4 + (zb > -81 ? 1.1 : 0); // keep the flight path clear near the oven exit
+      mesh.position.set(Math.cos(a) * r, 1.2 + Math.sin(a) * r * 0.8, zb);
       mesh.rotation.set(rnd() * Math.PI, rnd() * Math.PI, rnd() * Math.PI);
       g.add(mesh);
     }
@@ -1735,7 +1764,7 @@ export class PizzaWorld {
   };
 
   private doughChapterActive() {
-    return this.camP > 0.3 && this.camP < 0.425;
+    return this.camP > 0.305 && this.camP < 0.445;
   }
 
   private handleClick() {
