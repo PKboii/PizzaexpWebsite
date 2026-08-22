@@ -92,14 +92,14 @@ function Cap({
 
 const CHAPTERS = ["FIRE", "DOUGH", "CRAFT", "OVEN", "OUT", "INSIDE", "THE ROOM", "SLICE"];
 const CHAPTER_RANGES: [number, number][] = [
-  [0.0, 0.22],
-  [0.25, 0.4],
-  [0.4, 0.52],
-  [0.52, 0.68],
-  [0.68, 0.76],
-  [0.76, 0.87],
-  [0.87, 0.955],
-  [0.955, 1.01],
+  [0.0, 0.225],
+  [0.225, 0.44],
+  [0.44, 0.565],
+  [0.565, 0.71],
+  [0.71, 0.78],
+  [0.78, 0.88],
+  [0.88, 0.95],
+  [0.95, 1.01],
 ];
 
 /* ============================================================
@@ -339,20 +339,20 @@ export default function App() {
         {/* caption overlay for 3D */}
         {mode !== "2d" && (
           <div className="pointer-events-none fixed inset-0 z-20 overflow-hidden">
-            <Cap range={[0.004, 0.05]} className="left-6 top-24 sm:left-10">
+            <Cap range={[0.004, 0.07]} className="left-6 top-24 sm:left-10">
               <p className="text-[11px] tracking-[0.5em] text-ember">NAPOLI / 01</p>
             </Cap>
-            <Cap range={[0.03, 0.1]} className="bottom-[16vh] left-6 sm:left-10">
+            <Cap range={[0.05, 0.12]} className="bottom-[16vh] left-6 sm:left-10">
               <p className="font-display text-[13vw] leading-[0.9] text-cream text-shadow-warm sm:text-[9vw]">
                 FIRE <span className="text-tomato">FIRST.</span>
               </p>
             </Cap>
 
-            <Cap range={[0.12, 0.215]} className="left-1/2 top-[16vh] w-full -translate-x-1/2 text-center">
+            <Cap range={[0.155, 0.225]} className="left-1/2 top-[16vh] w-full -translate-x-1/2 text-center">
               <p className="font-display text-[17vw] leading-[0.82] text-cream text-shadow-deep sm:text-[13vw]">PIZZERIA</p>
               <p className="mt-2 font-hand text-3xl text-ember sm:text-4xl">fuoco — since the first spark</p>
             </Cap>
-            <Cap range={[0.14, 0.215]} className="bottom-[15vh] left-6 sm:left-10">
+            <Cap range={[0.165, 0.225]} className="bottom-[15vh] left-6 sm:left-10">
               <p className="font-serif2 text-2xl italic text-parchment sm:text-4xl">FIRE. DOUGH. TIME.</p>
               <p className="mt-3 text-[11px] tracking-[0.42em] text-cream/70">OPEN DAILY / 12—23</p>
             </Cap>
@@ -363,45 +363,45 @@ export default function App() {
               <p className="mt-6 font-hand text-2xl text-cream/60">extra chilli? always.</p>
             </Cap>
 
-            <Cap range={[0.285, 0.385]} className="left-6 top-[16vh] sm:left-10">
+            <Cap range={[0.315, 0.4]} className="left-6 top-[16vh] sm:left-10">
               <p className="font-display text-[20vw] leading-[0.85] text-cream sm:text-[15vw]">DOUGH</p>
               <p className="mt-2 font-serif2 text-xl italic text-parchment sm:text-3xl">START WITH SOMETHING SIMPLE.</p>
               <p className="mt-4 text-[11px] tracking-[0.4em] text-cream/60">FLOUR / WATER / SALT / PATIENCE</p>
             </Cap>
 
-            <Cap range={[0.425, 0.475]} className="left-6 top-[15vh] sm:left-10">
+            <Cap range={[0.455, 0.5]} className="left-6 top-[15vh] sm:left-10">
               <p className="font-display text-[9vw] leading-[0.9] text-cream sm:text-[6vw]">MAKE IT BEAUTIFUL.</p>
             </Cap>
-            <Cap range={[0.475, 0.52]} className="left-6 top-[15vh] sm:left-10">
+            <Cap range={[0.5, 0.545]} className="left-6 top-[15vh] sm:left-10">
               <p className="font-display text-[9vw] leading-[0.9] text-tomato text-shadow-warm sm:text-[6vw]">MAKE IT HOT.</p>
             </Cap>
-            <Cap range={[0.43, 0.5]} className="bottom-[13vh] left-6 sm:left-10">
+            <Cap range={[0.46, 0.52]} className="bottom-[13vh] left-6 sm:left-10">
               <p className="font-hand text-2xl text-ember">tap an ingredient, feed the pizza</p>
               <p className="mt-3 text-[10px] tracking-[0.34em] text-cream/55">NO PINEAPPLE ARGUMENTS HERE.</p>
             </Cap>
 
-            <Cap range={[0.585, 0.66]} className="left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center">
+            <Cap range={[0.645, 0.7]} className="left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center">
               <p className="font-display text-[16vw] leading-none text-ember text-shadow-warm sm:text-[11vw]">420°</p>
               <p className="mt-3 font-display text-[8vw] tracking-wide text-cream sm:text-[5vw]">WAIT.</p>
               <p className="mt-4 text-[11px] tracking-[0.44em] text-cream/60">NO SHORTCUTS.</p>
             </Cap>
 
-            <Cap range={[0.7, 0.755]} className="left-1/2 top-[14vh] w-full -translate-x-1/2 text-center">
+            <Cap range={[0.72, 0.77]} className="left-1/2 top-[13vh] w-full -translate-x-1/2 text-center">
               <p className="font-display text-[24vw] leading-[0.85] text-cream text-shadow-deep sm:text-[17vw]">OUT.</p>
               <p className="mt-1 font-serif2 text-2xl italic text-ember sm:text-4xl">NOW EAT.</p>
             </Cap>
 
-            <Cap range={[0.79, 0.855]} className="left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center">
+            <Cap range={[0.815, 0.865]} className="left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 text-center">
               <p className="font-display text-[7vw] leading-[0.95] text-cream/90 sm:text-[4.5vw]">GOOD DOUGH. BAD HABITS.</p>
               <p className="mt-4 text-[10px] tracking-[0.4em] text-ember/80">DIVING THROUGH THE CRUST</p>
             </Cap>
 
-            <Cap range={[0.885, 0.955]} className="bottom-[14vh] left-6 sm:left-10">
+            <Cap range={[0.9, 0.95]} className="bottom-[14vh] left-6 sm:left-10">
               <p className="font-display text-[13vw] leading-[0.88] text-cream text-shadow-deep sm:text-[9vw]">THE ROOM</p>
               <p className="mt-2 font-serif2 text-xl italic text-parchment sm:text-3xl">STAY A WHILE.</p>
             </Cap>
 
-            <Cap range={[0.96, 1.005]} className="left-1/2 top-[15vh] w-full -translate-x-1/2 text-center">
+            <Cap range={[0.955, 1.005]} className="left-1/2 top-[15vh] w-full -translate-x-1/2 text-center">
               <p className="font-display text-[11vw] leading-[0.9] text-cream text-shadow-warm sm:text-[7vw]">ONE MORE SLICE.</p>
               <p className="mt-2 font-hand text-3xl text-ember">always</p>
             </Cap>
